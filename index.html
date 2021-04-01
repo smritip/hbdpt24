@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HBDPT24</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="render.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/mustache@latest"></script>
+</head>
+
+<body onload="renderBody()">
+
+    <div class="jumbotron">
+        <h1 class="display-4">Happy Birth Month!!!! 😍🥳</h1>
+        <h4>Countdown to #PTBD24</h4>
+        <h4>😁🙃</h4>
+        <hr class="my-4">
+        <p class="lead">To this guy <img src="images/prat.jpg" width="5%" height="5%"> from this gal <img
+                src="images/smrit.jpg" width="4.5%" height="4.5%"> </p>
+    </div>
+
+    <div class="container-fluid">
+
+        <script id="unlinked-card" type="text/template">
+            <div class="{{class}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{date}}</h5>
+                    <p class="card-text">{{emoji}}</p>
+                </div>
+            </div>
+        </script>
+
+        <script id="linked-card" type="text/template">
+            <a class="{{class}}" href="{{link}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{date}}</h5>
+                    <p class="card-text">{{emoji}}</p>
+                </div>
+            </a>
+        </script>
+
+        <div class="card-deck" id="row-0">
+        </div>
+
+        <div class="card-deck" id="row-1">
+        </div>
+
+        <div class="card-deck" id="row-2">
+        </div>
+
+        <div class="card-deck" id="row-3">
+        </div>
+
+        <div class="card-deck" id="row-4">
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted lead">Inspired by <a
+                    href="https://www.google.com/search?q=advent+calendar+chocolate+open&tbm=isch&ved=2ahUKEwjgiPaQ0cvoAhVpIzQIHS0fCi4Q2-cCegQIABAA&oq=advent+calendar+chocolate&gs_lcp=CgNpbWcQARgBMgIIADICCAAyBggAEAUQHjIGCAAQCBAeMgYIABAIEB4yBAgAEBgyBAgAEBhQmhBY7hFg1hhoAHAAeACAAVCIAbcCkgEBNJgBAKABAaoBC2d3cy13aXotaW1n&sclient=img&ei=T9iGXqClCOnG0PEPrb6o8AI&bih=1361&biw=1256&hl=en">these
+                    calendar countdown thingies</a> 🗓️🍫</p>
+            <p class="text-muted">©️ Smriti Pramanick 2021</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

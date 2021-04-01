@@ -1,0 +1,33 @@
+body {
+    background-color: black !important;
+}
+
+.jumbotron {
+    background-color: white !important;
+    text-align: center;
+    padding: 30px !important;
+}
+
+.card-deck {
+    text-align: center;
+}
+
+.rainbow-box {
+    border: 5px solid transparent !important;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) !important;
+    border-image-slice: 1 !important;
+  }
+
+.footer {
+    background-color: white !important;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin: 17px;
+}
+
+p {
+    margin: 0 !important;
+}
