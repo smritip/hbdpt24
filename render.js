@@ -24,7 +24,11 @@ function renderLinkedCard(classes, link, date, emoji) {
 function renderBody() {
     var links = [
         "https://drive.google.com/file/d/19gOQUpb8dHw02oHKEwv1nZk7FMQEWWf9/view",
-        "https://drive.google.com/file/d/1AQ0SLs2RWW91RsG3S0G-EaSWCeh3l-9_/view"
+        "https://drive.google.com/file/d/1AQ0SLs2RWW91RsG3S0G-EaSWCeh3l-9_/view",
+        "https://drive.google.com/file/d/1DZL_XFvcbHEsX0fqn7MDPaiEUSoAWKtd/view",
+        "https://drive.google.com/file/d/1Dwp5YaMvmyKwFWtYxtjnPODlzEStiqRu/view",
+        "https://drive.google.com/file/d/1DRzlwRTo0ceAtoSLkJraCS1Rf6vx2z7h/view",
+        "https://drive.google.com/file/d/1E-tLMfDbA4KkpjL4koOy4bjtm-kqeEBb/view"
     ]
 
     var d = new Date();
